@@ -161,6 +161,17 @@ body{
     float: left;
     margin: 0 0 0 100px;
 }
+.gallery{
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery-background{
+    background-color: #489b2f;
+}
+.your-class{
+    width: 710px;
+    margin: auto;
+}
 .footer{
     height: 60px;
     background-color: #333;

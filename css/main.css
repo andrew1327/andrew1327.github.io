@@ -55,21 +55,14 @@
     max-width: 1349px;
     margin: auto;
     background-color: #fff;
-    position: relative;
-    z-index: 500;
 }
 .navigate-backgr{
-    position: relative;
-    z-index: 550;
     background-color: #fff;
     width: auto;
 }
 .sl{
     width: 1067px;
     margin: auto;
-}
-.sl__slide{
-    position: relative;
 }
 .content-3{
     background-color: black;

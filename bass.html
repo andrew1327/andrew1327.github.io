@@ -3,17 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Классическая гитара</title>
-        <link href="/css/bass.css" rel="stylesheet" type="text/css">
+        <link href="/css/classic.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Exo+2|Poppins" rel="stylesheet">
         <script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="/js/main.js" type="text/javascript"></script>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     </head>
     <body>
+
+<!--
+        <audio autoplay loop>
+                <source src="/audio/classic.mp3" type="audio/mpeg">
+        </audio>
+-->
         
         <div class="header"> 
-            <div class="layer-positioner">
-                <a href="/index.html" class="header-logo"><img src="/images/bass-guitar-horizontal.png" height="40" width="135"></a>
+            <div class="layer-positioner clearfix">
+                <a href="/index.html#guitar-type" class="header-logo"><img src="/images/classic-guitar-horizontal.png" height="40" width="105"></a>
                 <div class="header-menu">
                     <ul class="header-menu-ul">
                         <li><a href="#guitar-info">О гитаре</a></li>
@@ -23,38 +31,101 @@
                 </div>
             </div>
         </div>
-        <div class="fixed-content"></div>
+
         <div class="guitar-inf" id="guitar-info">
-            <div class="layer-positioner">
+            <div class="layer-positioner clearfix">
                 
-                    <div class="guitar-inf-txt"></div>
-            <div class="guitar-inf-background"></div>
-            </div>
-        </div>
-        <div class="layer-positioner">
-        <div class="guitar-facts" id="guitar-fact">
-            
-                
-            </div>
-        </div>
-        
-        <div class="guitar-artists" id="artists">
-            <div class="layer-positioner">
-                <div class="guitar-artists-quote">
+                <div class="guitar-inf-txt"><span>К</span>лассическая (испанская, шестиструнная) гитара — струнный щипковый музыкальный инструмент. Основной представитель семейства гитар в целом, и акустических гитар в частности. В современном виде существует со второй половины XVIII века, используется как сольный, ансамблевый и аккомпанирующий инструмент. Гитара обладает большими художественно-исполнительскими возможностями и широким разнообразием тембров.
+
+                    Классическая гитара имеет шесть струн, основной строй которых — e1, h, g, d, A, E (ми первой октавы, си, соль, ре малой октавы, ля, ми большой октавы). Ряд музыкальных мастеров проводили эксперименты по добавлению дополнительных струн (десятиструнная гитара Фердинандо Карулли и Рене Лакота, пятнадцатиструнная гитара Василия Лебедева, девятиструнная, ГРАН-гитара и др.), однако такие инструменты широкого распространения не получили.
                     
+                    </div>
+                    
+                    <div class="guitar-inf-background"></div>
+               
+            </div>
+        </div>
+        <div id="guitar-fact"></div>
+        <div class="layer-positioner clearfix">
+        <div class="guitar-facts">
+            
+            <div class="pre-facts">Классическая гитара имеет ряд особенностей:</div>
+                    <div class="guitar-facts-ul-pos">
+                       <ul class="guitar-facts-ul">
+                        <li>Это акустический инструмент. Звук усиливается лишь деревянным корпусом гитары.</li>
+                        <li>Используются струны из синтетики: нейлона, реже — карбона. В очень редких случаях — струны из кишок животных (жильные струны). Существуют модели шестиструнной гитары с металлическими струнами — так называемые «подъездные», «походные», «бардовские» гитары.</li><li>
+                        Наиболее распространённые породы древесины для изготовления корпуса классической гитары: палисандр или красное дерево для задней деки и обечаек, ель или кедр для верхней деки. Гриф может быть изготовлен из кедра или красного дерева.</li>
+<!--                        <li>Гриф гитары более широкий, что с одной стороны, позволяет легче прижать нужную ноту, а с другой стороны, требует бо́льших усилий при игре (например, для баррэ́) .</li>-->
+                        <li>Струны обычно перебирают пальцами. Часто гитаристы используют и ногти при игре, что позволяет достичь более яркого звучания. Однако на классической гитаре можно играть и медиатором, например, фламенко.</li>
+                        <li>Метки ладов на грифе расположены сбоку, а не на плоскости грифа. Это больше соответствует строгому дизайну гитары. На дорогих инструментах метки ладов могут отсутствовать.</li>
+                        <li>У классических гитар между головкой грифа и корпусом гитары расположено только 12 ладов, а не 14, как у остальных.</li>
+                        <li>Обычно классические гитары делают без пластмассовой пластинки (гольпеадора) под струнами. В этом нет необходимости, так как нет медиатора (плектра), которым можно повредить корпус, а каждая лишняя деталь на верхней деке ухудшает её акустику. Исключение составляют гитары-фламенко, где по корпусу часто бьют пальцами и ногтями (гольпе) — там такая пластинка просто необходима.</li>
+                        <li>Играют на классической гитаре обычно без микрофона или усилителей. Однако, в больших помещениях, или в шумной атмосфере используют простой микрофон, пьезоэлектрические звукосниматели: прикрепляющийся к верхней деке (так называемая «таблетка»), порожковый (вставляющийся вместо нижнего порожка) — или контактные датчики.</li>
+                        <li>Игра на классической гитаре предполагает и классическую посадку, при которой корпус гитары лежит на левой ноге, а гриф располагается под углом около 45° к полу. Для удобства под левую ногу ставится подставка. В последнее время также появляются так называемые «суппорты» — подставки, устанавливаемые на колено. В этом случае подставка под ногу не требуется.</li>
+                        
+                    </ul>
+            </div>
+            </div>
+            </div>
+        <div id="artists"></div>
+        <div class="guitar-artists">
+            <div class="layer-positioner clearfix">
+               <div class="guitar-artist">Маттео Каркасси</div>
+                <div class="guitar-artists-quote">
+                    Знаменитый итальянский гитарист и композитор, принадлежавший к славному «Золотому веку гитары». Родился в артистическом городе Флоренции в 1792 году.
+
+                    С детских лет он упорно занимался гитарой, которой настойчиво посвятил многие годы; начал выступать в 1810 году; благодаря своим исключительным способностям, уже после первых концертов завоевал славу очень хорошего гитариста.
+
+                    Обладая непоседливым характером и жаждой новых успехов, он предпринимает свое первое зарубежное турне в Германию, а также знакомит публику со своими первыми и основополагающими сочинениями, право издания на которые добивались многие немецкие издательства.
                 </div>
                 <div class="guitar-artists-img"></div>
             </div>
         </div>
-        
-        <div class="footer"> 
-            <div class="layer-positioner">
-                <div class="footer-pos">
-                <div class="footer-background"></div>
-                <div class="footer-quote">В рамках конкурса компьютерного творчества «UPgrade»</div>
-                </div>
+        <div class="gallery-background">
+        <div class="gallery">
+            <div class="your-class">
+              <div><img src="/slick/images/c1.jpg" height="400"></div>
+              <div><img src="/slick/images/c2.jpg" height="400"></div>
+              <div><img src="/slick/images/c3.jpg" height="400"></div>
+              <div><img src="/slick/images/c4.jpg" height="400"></div>
+              <div><img src="/slick/images/c5.jpg" height="400"></div>
             </div>
         </div>
+        </div>
         
+        <div class="footer"> 
+                    <div class="layer-positioner">
+                        <div class="footer-background"></div>
+                    </div>
+                <div class="footer-pos">                                    
+                    <div class="footer-quote">В рамках конкурса компьютерного творчества «UPgrade»</div>
+                </div>
+        </div>
+        
+        
+        
+        <script src="/js/smooth-scroll.js"></script>
+        <script>
+	       var scroll = new SmoothScroll('a[href*="#guitar-info"');
+        </script>
+        <script>
+	       var scroll = new SmoothScroll('a[href*="#guitar-fact"');
+        </script>
+        <script>
+	       var scroll = new SmoothScroll('a[href*="#artists"');
+        </script>
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="/slick/slick.min.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.your-class').slick({
+                  autoplay: true,
+                  autoplaySpeed: 3000
+              });
+            });
+        </script>
     </body>
 </html>

@@ -1,12 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    counter-reset: section;  
 }
 .layer-positioner{
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 15px;
     width: 1349px;
-    position: relative;
 }
 .clearfix::after{
     content: "";
@@ -20,80 +24,162 @@
     border-bottom: 1px solid #cccccc;
     position: fixed;
     z-index: 1000;
+    font-family: 'Raleway', sans-serif;
     
 }
-.header-logo{
+#guitar-fact{
     position: absolute;
+    margin-top: -50px;
+}
+#artists{
+    margin-top: -50px;
+    position: absolute;
+}
+.header-logo{
     width: 105px;
     height: 40px;
-    top: 5px;
-    left: 50px;
+    float: left;
+    margin-left: 60px;
+    padding: 5px 5px;
 }
 .header-menu-ul{
     float: left;
-    position: absolute;
-    left: 400px;
+    margin-left: 300px;
 }
 .header-menu-ul li{
     display: inline-block;
-    height: 50px;
-    width: 260px;
     text-align: center;
+    margin: 0 10px;
+    padding: 0 0px;
 }
 .header-menu-ul li a{
     text-decoration: none;
     color: black;
     font-size: 22px;
     display: block;
-    height: 40px;
-    padding-top: 11px;
+    padding: 12px 25px 11px;
+    font-family: 'Raleway', sans-serif;
 }
-.header-menu-ul li a:hover{
+.header-menu-ul li:hover{
     background-color: #ffcc99;
 }
-.header-menu-ul li a:active{
+.header-menu-ul li:active{
     background-color: #dd9933;
 }
-.fixed-content{
-    height: 50px;
+.header-menu-ul li a:hover{
+    color: #333;
+}
+.header-menu-ul li a:active{
+    color: #dd4733;
 }
 .guitar-inf{
-    height: 640px;
-    position: relative;
-    background-color: #ffffcc;
-    padding-left: 20px;
-    padding-top: 20px;
+    background-color: rgba(255, 209, 18, 0.28);
 }
 .guitar-inf-txt{
     width: 640px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 74px 15px 38px 50px;
+    float: left;
+}
+.guitar-inf-txt span{
+    padding-left: 10px;
+    color: #ff0404;
+    font-size: 24px;
 }
 .guitar-inf-background{
     background-image: url("/images/muzykalnyy-instrument-727.jpg");
     width: 596px;
     height: 380px;
-    position: absolute;
-    right: 0;
-    top:0;
+    background-size: cover;
+    float: right;
+    margin: 50px -15px 0px 0px;
+}
+.guitar-facts-ul-pos{
+    width: 1330px;
 }
 .guitar-facts{
-    padding-top: 60px;
-    padding-left: 20px;
-    width: 1329px;
-    padding-bottom: 60px;
+    background-color: white;
+    float: left;
+    padding: 20px 0px 60px 0;
+}
+.pre-facts{
+    margin-left: 10px;
+    padding: 10px 30px;;
+    font-size: 24px;
 }
 .guitar-facts-ul{
-    margin-left: 20px;
+    margin: auto;;
+    list-style: none;
+    width: 1200px;
+}
+.guitar-facts-ul li{
+    margin: 20px 0;
+    width: 28%;
+    margin: 28px;
+    float: left;
+    min-height: 180px;
+    padding-left: 34px;
+    position: relative;
+}
+.guitar-facts-ul li:before{
+    background-color: rgb(16, 0, 204);
+    content: counter(section);
+    border-radius: 50%;
+    counter-increment: section;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+.guitar-artist{
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 10px 60px;
+}
+.guitar-artists{
+    padding: 30px 0 50px;
+    background-color: #b20030;
+}
+.guitar-artists-quote{
+    width: 900px;
+    padding-left: 60px;
+    color: white;
+    font-size: 18px;
+    float: left;
+}
+.guitar-artists-quote span{
+    padding: 0 0px 0 10px;
+    font-size: 20px;
+}
+.guitar-artists-img{
+    background-image: url('/images/M.-Karkassi.jpg');
+    width: 172px;
+    height: 209px;
+    border-radius: 20px;
+    float: left;
+    margin: 0 0 0 100px;
+}
+.gallery{
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery-background{
+    background-color: #489b2f;
+}
+.your-class{
+    width: 710px;
+    margin: auto;
 }
 .footer{
     height: 60px;
-    position: relative;
-    z-index: 600;
-    background-color: #333333;
+    background-color: #333;
 }
 .footer-pos{
-    width: 1349px;
+    width: 960px;
     height: 60px;
-    position: relative;
+    margin: auto;
 }
 
 .footer-background{
@@ -101,29 +187,13 @@
     height: 60px;
     width: 180px;
     background-size: 70%;
-    margin-left: 50px;
+    float: left;
 }
 .footer-quote{
-    position: absolute;
-    color: #cccccc;
+    color: #ccc;
     font-size: 20px;
-    right: 420px;
-    top: 16px;
-}
-.guitar-artists{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    position: relative;
-}
-.guitar-artists-quote{
-    width: 900px;
-    padding-left: 60px;
-}
-.guitar-artists-img{
-    background-image: url('/images/M.-Karkassi.jpg');
-    width: 172px;
-    height: 209px;
-    position: absolute;
-    right: 100px;
-    top: -60px;
+    line-height: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: middle;
 }
