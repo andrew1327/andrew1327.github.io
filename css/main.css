@@ -54,10 +54,9 @@
 .navigate{
     max-width: 1349px;
     margin: auto;
-    background-color: #fff;
+    background-color: #0d0d0d;
 }
 .navigate-backgr{
-    background-color: #fff;
     width: auto;
 }
 .sl{
@@ -236,7 +235,6 @@
     right: 70px;
     bottom: 110px;
 }
-
 .content-3{
     height: 940px;
     background-color: black;
@@ -367,9 +365,6 @@
 }
 
 @media screen and (max-width: 768px){
-    *{
-        display: none;
-    }
     .layer-position{
         width: 768px;
     }

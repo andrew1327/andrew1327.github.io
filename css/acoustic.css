@@ -61,19 +61,17 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .header-menu-ul li:hover{
-    background-color: #1e2e89;
+    background-color: #1f329d;
 }
-.header-menu-ul li:active{
-    background-color: #0d2e6c;
-}
+
 .header-menu-ul li a:hover{
     color: #d1d1d1;
 }
 .header-menu-ul li a:active{
-    color: #0556eb;
+    color: #5278be;
 }
 .guitar-inf{
-    background-color: rgba(255, 209, 18, 0.28);
+    background-color: rgba(0, 10, 250, 0.32);
 }
 .guitar-inf-txt{
     width: 640px;
@@ -141,7 +139,7 @@ body{
 }
 .guitar-artists{
     padding: 30px 0 50px;
-    background-color: #b20030;
+    background-color: rgb(7, 0, 87);
 }
 .guitar-artists-quote{
     width: 900px;
@@ -169,7 +167,7 @@ body{
     margin: auto;
 }
 .gallery-background{
-    background-color: #489b2f;
+    background-color: rgb(0, 0, 42);
 }
 .your-class{
     width: 710px;
