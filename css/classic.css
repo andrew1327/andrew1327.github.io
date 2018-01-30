@@ -40,24 +40,29 @@ body{
 }
 .header-menu-ul li{
     display: inline-block;
-    height: 50px;
-    width: 260px;
     text-align: center;
+    margin: 0 10px;
+    padding: 0 0px;
 }
 .header-menu-ul li a{
     text-decoration: none;
     color: black;
     font-size: 22px;
     display: block;
-    height: 40px;
-    padding-top: 11px;
+    padding: 12px 25px 11px;
     font-family: 'Raleway', sans-serif;
 }
-.header-menu-ul li a:hover{
+.header-menu-ul li:hover{
     background-color: #ffcc99;
 }
-.header-menu-ul li a:active{
+.header-menu-ul li:active{
     background-color: #dd9933;
+}
+.header-menu-ul li a:hover{
+    color: #333;
+}
+.header-menu-ul li a:active{
+    color: #dd4733;
 }
 .guitar-inf{
     background-color: rgba(255, 209, 18, 0.28);
@@ -111,8 +116,13 @@ body{
     color: white;
     margin-top: 10px;
 }
+.guitar-artist{
+    color: #fff;
+    font-size: 26px;
+    padding: 0 0 10px 60px;
+}
 .guitar-artists{
-    padding: 60px 0 60px;
+    padding: 30px 0 60px;
     background-color: #b20030;
 }
 .guitar-artists-quote{
@@ -121,6 +131,10 @@ body{
     color: white;
     font-size: 18px;
     float: left;
+}
+.guitar-artists-quote span{
+    padding: 0 0px 0 10px;
+    font-size: 20px;
 }
 .guitar-artists-img{
     background-image: url('/images/M.-Karkassi.jpg');
