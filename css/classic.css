@@ -27,6 +27,14 @@ body{
     font-family: 'Raleway', sans-serif;
     
 }
+#guitar-fact{
+    position: absolute;
+    margin-top: -50px;
+}
+#artists{
+    margin-top: -50px;
+    position: absolute;
+}
 .header-logo{
     width: 105px;
     height: 40px;
@@ -86,35 +94,44 @@ body{
     float: right;
     margin: 50px -15px 0px 0px;
 }
+.guitar-facts-ul-pos{
+    width: 1330px;
+}
 .guitar-facts{
-    width: 1329px;
     background-color: white;
-    padding: 30px 20px 60px 0;
+    float: left;
+    padding: 20px 0px 60px 0;
 }
 .pre-facts{
     margin-left: 10px;
-    padding: 20px;
+    padding: 10px 30px;;
+    font-size: 24px;
 }
 .guitar-facts-ul{
-    margin-left: 50px;
+    margin: auto;;
     list-style: none;
-    width: 1230px;
+    width: 1200px;
 }
 .guitar-facts-ul li{
     margin: 20px 0;
+    width: 28%;
+    margin: 28px;
+    float: left;
+    min-height: 180px;
+    padding-left: 34px;
+    position: relative;
 }
 .guitar-facts-ul li:before{
     background-color: rgb(16, 0, 204);
     content: counter(section);
     border-radius: 50%;
-    margin-right: 10px;
     counter-increment: section;
-    display: inline-block;
     width: 25px;
     height: 25px;
     text-align: center;
     color: white;
-    margin-top: 10px;
+    position: absolute;
+    left: 0;
 }
 .guitar-artist{
     color: #fff;
@@ -122,7 +139,7 @@ body{
     padding: 0 0 10px 60px;
 }
 .guitar-artists{
-    padding: 30px 0 60px;
+    padding: 30px 0 50px;
     background-color: #b20030;
 }
 .guitar-artists-quote{
@@ -143,27 +160,6 @@ body{
     border-radius: 20px;
     float: left;
     margin: 0 0 0 100px;
-}
-.navigate{
-    height: 600px;
-    max-width: 1349px;
-    margin: auto;
-    background-color: #fff;
-    position: relative;
-    z-index: 500;
-}
-.navigate-backgr{
-    position: relative;
-    z-index: 550;
-    background-color: #fff;
-    width: auto;
-}
-.sl1{
-    width: 1067px;
-    margin: auto;
-}
-.sl__slide1{
-    position: relative;
 }
 .footer{
     height: 60px;

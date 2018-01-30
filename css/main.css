@@ -125,7 +125,7 @@
     margin: 15px auto 10px;
     width: 110px;
 }
-.item:nth-child(3){
+.item:nth-child(3n){
     margin-right: 0;
 }
 .item:nth-child(4){
@@ -137,7 +137,6 @@
 }
 .item:nth-child(6){
     height: 380px;
-    margin-right: 0;
 }
 .item-name{
     color: black;
