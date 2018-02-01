@@ -185,13 +185,10 @@
     z-index: 600;
 }
     .header-background{
-        height: 1024px;
-        width: 1280px;
         background: url('/images/header-background.jpg');
         background-size: cover;
         background-position: center;
         position: relative;
-        z-index: 100;
     }
     .shop{
         height: 1024px;
@@ -367,9 +364,6 @@
 
 
 @media screen and (max-width: 768px){
-        *{
-            border: 1px solid red;
-        }
         .layer-positioner{
             max-width: 700px;
         }
