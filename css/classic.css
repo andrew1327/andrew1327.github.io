@@ -45,6 +45,7 @@ body{
     height: 50px;
     padding: 5px 0;
     margin-left: 40px;
+    display: block;
 }
 .header-menu-ul{
     margin: auto;
@@ -392,6 +393,10 @@ body{
 
 
 @media screen and (max-width: 640px){
+    .header-logo{
+        float: none;
+        margin: 0 auto;
+    }
     .guitar-inf{
         width: 100%;
     }
@@ -407,15 +412,9 @@ body{
         width: 110%;
         height: 250px;
     }
-    .mobile-positioner{
-        width: 110px;
-        border: 1px solid black;
-    }
-    .header-logo{
-        margin: 0 auto;
-    }
     .ul-positioner{
         display: none;
+        content:"";
     }
     .pre-facts{
         font-size: 16px;
@@ -458,7 +457,7 @@ body{
         margin-left: 0px;
         color: white;
         font-size: 14px;
-        float: left;
+        float: none;
         width: 100%;
     }
     .guitar-artists-img{
@@ -466,7 +465,7 @@ body{
         width: 140px;
         height: 170px;
         border-radius: 20px;
-        float: left;
+        float: none;
         margin: 20px auto 0;
         background-size: cover;
     }
