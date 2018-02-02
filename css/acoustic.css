@@ -12,6 +12,11 @@ body{
     padding: 0 15px;
     width: 1349px;
 }
+.roll{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1349px;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -20,8 +25,8 @@ body{
 .header{
     width: 100%;
     height: 50px;
-    background-color: #213db4;
-    border-bottom: 1px solid #000000;
+    background-color: rgb(255, 138, 38);
+    border-bottom: 1px solid #cccccc;
     position: fixed;
     z-index: 1000;
     font-family: 'Raleway', sans-serif;
@@ -35,48 +40,59 @@ body{
     margin-top: -50px;
     position: absolute;
 }
+.ul-positioner{
+    width: 760px;
+    margin: 0 auto;
+}
 .header-logo{
-    width: 105px;
-    height: 40px;
     float: left;
-    margin-left: 60px;
-    padding: 5px 5px;
+    width: 105px;
+    height: 50px;
+    padding: 5px 0;
+    margin-left: 40px;
+    display: block;
 }
 .header-menu-ul{
-    float: left;
-    margin-left: 300px;
+    margin: auto;
+    text-align: justify;
 }
 .header-menu-ul li{
     display: inline-block;
-    text-align: center;
-    margin: 0 10px;
-    padding: 0 0px;
+    text-align: justify;
+    margin: 0 15px;
+}
+.header-menu-ul li:nth-child(1){
+    margin-left: 0;
+}
+.header-menu-ul li:nth-child(3){
+    margin-right: 0;
 }
 .header-menu-ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 22px;
     display: block;
     padding: 12px 25px 11px;
     font-family: 'Raleway', sans-serif;
 }
 .header-menu-ul li:hover{
-    background-color: #1f329d;
+    background-color: #f8a319;
 }
-
 .header-menu-ul li a:hover{
-    color: #d1d1d1;
+    color: #333;
 }
 .header-menu-ul li a:active{
-    color: #5278be;
+    color: #cb3e00;
 }
 .guitar-inf{
-    background-color: rgba(0, 10, 250, 0.32);
+    background-color: rgba(255, 209, 18, 0.28);
+    padding-top: 50px;
 }
 .guitar-inf-txt{
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
-    padding: 74px 15px 38px 50px;
+    padding: 24px 15px 38px 50px;
     float: left;
 }
 .guitar-inf-txt span{
@@ -85,38 +101,32 @@ body{
     font-size: 24px;
 }
 .guitar-inf-background{
-    background-image: url("/images/14816155926010.jpg");
-    background-position: -54px 0;
-    width: 620px;
+    background-image: url("/images/muzykalnyy-instrument-727.jpg");
+    width: 596px;
     height: 380px;
     background-size: cover;
     float: right;
-    margin: 50px -15px 0px 0px;
-}
-.guitar-facts-ul-pos{
-    width: 1330px;
+    margin: 0px -15px 0px 0px;
 }
 .guitar-facts{
-    background-color: white;
-    float: left;
-    padding: 20px 0px 60px 0;
+    padding: 20px 0px 0px 0;
 }
 .pre-facts{
     margin-left: 10px;
     padding: 10px 30px;;
     font-size: 24px;
+    width:90%;
 }
 .guitar-facts-ul{
-    margin: auto;;
     list-style: none;
-    width: 1200px;
+    padding: 0 20px;
 }
 .guitar-facts-ul li{
     margin: 20px 0;
     width: 28%;
-    margin: 28px;
+    margin: 28px 2.66%;
     float: left;
-    min-height: 140px;
+    min-height: 180px;
     padding-left: 34px;
     position: relative;
 }
@@ -135,15 +145,16 @@ body{
 .guitar-artist{
     color: #fff;
     font-size: 26px;
-    padding: 0 0 10px 60px;
+    margin: 0 0 10px 60px;
 }
 .guitar-artists{
     padding: 30px 0 50px;
-    background-color: rgb(7, 0, 87);
+    background-color: #ff9300;
 }
 .guitar-artists-quote{
-    width: 900px;
-    padding-left: 60px;
+    max-width: 900px;
+    width: 100%;
+    margin-left: 60px;
     color: white;
     font-size: 18px;
     float: left;
@@ -153,34 +164,35 @@ body{
     font-size: 20px;
 }
 .guitar-artists-img{
-    background-image: url('/images/ac.jpg');
-    background-size: cover;
-    background-position: -10px 0px;
-    width: 300px;
-    height: 210px;
+    background-image: url('/images/M.-Karkassi.jpg');
+    width: 172px;
+    height: 209px;
     border-radius: 20px;
     float: left;
-    margin: 0 0 0 70px;
+    margin: 0 0 0 100px;
 }
 .gallery{
     max-width: 1200px;
     margin: auto;
 }
 .gallery-background{
-    background-color: rgb(0, 0, 42);
+    background-color: #d67b12;
 }
 .your-class{
     width: 710px;
     margin: auto;
+}
+.footer-relative{
+    position: relative;
 }
 .footer{
     height: 60px;
     background-color: #333;
 }
 .footer-pos{
-    width: 960px;
+    width: auto;
     height: 60px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .footer-background{
@@ -188,32 +200,25 @@ body{
     height: 60px;
     width: 180px;
     background-size: 70%;
-    float: left;
+    position: absolute;
+    left: 10px;
 }
 .footer-quote{
     color: #ccc;
     font-size: 20px;
     line-height: 20px;
-    padding: 20px 20px;
+    padding: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 
-
 @media screen and (max-width: 1370px){
-        *{
-            padding: 0;
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            box-sizing: border-box;
-        }
-        body{
-            counter-reset: section;  
-        }
         .layer-positioner{
             width: 100%;
         }
+    .roll{
+        width: 100%;
+    }
 }
 
 
@@ -234,6 +239,7 @@ body{
     }
     .ul-positioner{
         width: 690px;
+        margin: 0 20%;
     }
     .header-menu-ul li{
         margin: 0 1.17%;
@@ -318,23 +324,23 @@ body{
     }
     .header-menu-ul li a{
         font-size: 18px;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding: 14px 4px 0;
     }
     .pre-facts{
         font-size: 20px;
         padding-left: 0;
     }
     .guitar-facts-ul{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .guitar-facts-ul li{
-        font-size: 15px;
-        min-height: 380px;
+        font-size: 14px;
+        min-height: 210px;
         margin-left: 5px;
-        margin-right: 5px;
-        width: 30%;
+        margin-right: 15px;
+        width: 46.5%;
+        padding-left: 35px;
     }
     .guitar-artist{
         margin: 0 0 10px 20px;
@@ -387,30 +393,33 @@ body{
 
 
 @media screen and (max-width: 640px){
+    .header-logo{
+        float: none;
+        margin: 0 auto;
+    }
     .guitar-inf{
         width: 100%;
     }
     .guitar-inf-txt{
         width: 100%;
-        padding: 10px 0;
+        padding: 10px 15px 20px;
         font-size: 14px;
+        float: none;
     }
     .guitar-inf-txt span{
         font-size: 20px;
     }
+    .roll{
+        padding: 0;
+    }
     .guitar-inf-background{
-        width: 110%;
-        height: 250px;
-    }
-    .mobile-positioner{
-        width: 110px;
-        border: 1px solid black;
-    }
-    .header-logo{
-        margin: 0 auto;
+        float: none;
+        width: 100%;
+        height: 200px;
     }
     .ul-positioner{
         display: none;
+        content:"";
     }
     .pre-facts{
         font-size: 16px;
@@ -419,18 +428,16 @@ body{
     }
     .guitar-facts-ul{
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 5px;
     }
     .guitar-facts-ul li{
         font-size: 14px;
-        min-height: 210px;
+        min-height: 0;
+        height: auto;
         margin-left: 5px;
         margin-right: 5px;
-        width: 46.5%;
+        width: 100%;
         padding-left: 25px;
-    }
-    .guitar-facts-ul li:nth-child(8){
-        min-height: 450px;
     }
     .guitar-facts-ul li:before{
         width: 20px;
@@ -442,7 +449,8 @@ body{
     }
     .guitar-artist{
         margin: 0 0 10px 0px;
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 700;
     }
     .guitar-artists{
         padding: 15px 0 20px;
@@ -453,15 +461,16 @@ body{
         margin-left: 0px;
         color: white;
         font-size: 14px;
-        float: left;
+        float: none;
         width: 100%;
+        font-weight: 600;
     }
     .guitar-artists-img{
         background-image: url('/images/M.-Karkassi.jpg');
         width: 140px;
         height: 170px;
         border-radius: 20px;
-        float: left;
+        float: none;
         margin: 20px auto 0;
         background-size: cover;
     }
@@ -472,13 +481,7 @@ body{
         height: auto;
     }
     .footer-background{
-        background: url('/images/KAI-Logo.png') no-repeat;
-        height: 30px;
-        width: 72px;
-        background-size: cover;
-        position: absolute;
-        margin-top: -6px;
-        margin-bottom: 10px;
+        display: none;
     }
     .footer-quote{
         color: #ccc;
@@ -486,16 +489,15 @@ body{
         line-height: 20px;
         padding: 2px 0;
         text-align: center;
-        width: 60%;
-        margin:auto;
-        margin-bottom: 5px;
+        width: 80%;
+        margin: 0 auto;
     }
     .your-class div img{
-        width: 300px;
-       height: 170px;
+        width: 100%;
+       height: auto;;
         margin: auto;
     }
     .your-class{
-        width: 320px;
+        width: 80%;
     }
 }
