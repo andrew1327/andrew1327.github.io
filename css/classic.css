@@ -208,15 +208,6 @@ body{
 
 
 @media screen and (max-width: 1370px){
-        *{
-            padding: 0;
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            box-sizing: border-box;
-        }
-        body{
-            counter-reset: section;  
-        }
         .layer-positioner{
             width: 100%;
         }
@@ -332,15 +323,16 @@ body{
         padding-left: 0;
     }
     .guitar-facts-ul{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .guitar-facts-ul li{
-        font-size: 15px;
-        min-height: 380px;
+        font-size: 14px;
+        min-height: 210px;
         margin-left: 5px;
-        margin-right: 5px;
-        width: 30%;
+        margin-right: 15px;
+        width: 46.5%;
+        padding-left: 35px;
     }
     .guitar-artist{
         margin: 0 0 10px 20px;
@@ -423,18 +415,16 @@ body{
     }
     .guitar-facts-ul{
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 5px;
     }
     .guitar-facts-ul li{
         font-size: 14px;
-        min-height: 210px;
+        min-height: 0;
+        height: auto;
         margin-left: 5px;
         margin-right: 5px;
-        width: 46.5%;
+        width: 100%;
         padding-left: 25px;
-    }
-    .guitar-facts-ul li:nth-child(8){
-        min-height: 450px;
     }
     .guitar-facts-ul li:before{
         width: 20px;
