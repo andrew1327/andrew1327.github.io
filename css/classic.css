@@ -12,6 +12,11 @@ body{
     padding: 0 15px;
     width: 1349px;
 }
+.roll{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1349px;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -211,6 +216,9 @@ body{
         .layer-positioner{
             width: 100%;
         }
+    .roll{
+        width: 100%;
+    }
 }
 
 
@@ -394,15 +402,20 @@ body{
     }
     .guitar-inf-txt{
         width: 100%;
-        padding: 10px 0;
+        padding: 10px 15px 20px;
         font-size: 14px;
+        float: none;
     }
     .guitar-inf-txt span{
         font-size: 20px;
     }
+    .roll{
+        padding: 0;
+    }
     .guitar-inf-background{
-        width: 110%;
-        height: 250px;
+        float: none;
+        width: 100%;
+        height: 200px;
     }
     .ul-positioner{
         display: none;
@@ -436,7 +449,8 @@ body{
     }
     .guitar-artist{
         margin: 0 0 10px 0px;
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 700;
     }
     .guitar-artists{
         padding: 15px 0 20px;
@@ -449,6 +463,7 @@ body{
         font-size: 14px;
         float: none;
         width: 100%;
+        font-weight: 600;
     }
     .guitar-artists-img{
         background-image: url('/images/M.-Karkassi.jpg');
@@ -466,13 +481,7 @@ body{
         height: auto;
     }
     .footer-background{
-        background: url('/images/KAI-Logo.png') no-repeat;
-        height: 30px;
-        width: 72px;
-        background-size: cover;
-        position: absolute;
-        margin-top: -6px;
-        margin-bottom: 10px;
+        display: none;
     }
     .footer-quote{
         color: #ccc;
@@ -480,9 +489,8 @@ body{
         line-height: 20px;
         padding: 2px 0;
         text-align: center;
-        width: 60%;
-        margin:auto;
-        margin-bottom: 5px;
+        width: 80%;
+        margin: 0 auto;
     }
     .your-class div img{
         width: 100%;
