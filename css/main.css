@@ -9,6 +9,11 @@
     padding: 0 15px;
     width: 1349px;
 }
+.roll{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1349px;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -122,7 +127,6 @@
 }
 .item:nth-child(4){
     height: 380px;
-    
 }
 .item:nth-child(5){
     height: 380px;
@@ -138,15 +142,17 @@
 .item-img-5{
     width:90px;
 }
-
+.footer-relative{
+    position: relative;
+}
 .footer{
     height: 60px;
     background-color: #333;
 }
 .footer-pos{
-    width: 960px;
+    width: auto;
     height: 60px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .footer-background{
@@ -154,368 +160,248 @@
     height: 60px;
     width: 180px;
     background-size: 70%;
-    float: left;
+    position: absolute;
+    left: 10px;
 }
 .footer-quote{
     color: #ccc;
     font-size: 20px;
     line-height: 20px;
-    padding: 20px 20px;
+    padding: 20px;
     text-align: center;
-    vertical-align: middle;
 }
 
 
 
 
 
-@media screen and (max-width: 1350px){
-.layer-positioner{
-    margin: 0 auto;
-    width: 100%;
-}
-    .clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.header-backgr{
-    position: relative;
-    background-color: white;
-    z-index: 600;
-}
+@media screen and (max-width: 1370px){
+        
+    .layer-positioner{
+        width: 100%;
+    }
     .header-background{
-        background: url('/images/header-background.jpg');
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    }
-    .shop{
-        height: 1024px;
-    }
-    .header-background h1{
-        color: white;
-        font-size: 65px;
-        position: absolute;
-        right: 140px;
-        top: 340px;
-    }
-    .quote-pos{
-    width: 1263px;
-    height: 1024px;
-    position: absolute;
-}
-.shop-backgroundd{
-    width:727px;
-    height: 690px;
-    background: url('/images/gitara-1920x1080-11448531.jpg') no-repeat;
-    background-size: cover;
-    float: left;
-    position: fixed;
-    left:0;
-    top:0;
-    z-index: 0;
-}
-.shop-quote{
-    width: 800px;
-    position: absolute;
-    right: 30px;
-    top: 340px;
-    float: right;
-    color: #cccccc;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-}
-.shop-quote-c{
-    color: #cccccc;
-    position: absolute;
-    right: 70px;
-    bottom: 110px;
-}
-.content-3{
-    height: 940px;
-    background-color: black;
-    position: relative;
-    z-index: 300;
-}
-.content-3-pos{
-    height: 940px;
-    width: 1263px;
-    position: absolute;
-}
-.content-3-quote{
-    position: absolute;
-    color: #cccccc;
-    right: 150px;
-    top: 380px;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 32px;
-    text-align: center;
-}
-    .content-3-img{
-        margin-top: 170px;
-    }
-.content-3-quote-c{
-    position: absolute;
-    color: #cccccc;
-    right: 150px;
-    bottom: 200px;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 26px;
-    text-align: right;
-}
-.guitar-types-background{
-    background-color: white;
-    position: relative;
-    z-index: 450;
-    height: 910px;
-}
-.guitar-types{
-    padding-top: 10px;
-    height: 910px;
-    width: 966px;    
-    background-color: white;
-    position: relative;
-    z-index: 400;
-    margin: auto;
-}
-.item{
-    width: 280px;
-    height: 350px;
-    display: block;
-    border: 1px dashed pink;
-    float: left;
-    margin-right: 60px;
-    margin-top: 70px;
-}
-
-.item-img{
-    margin: auto;
-    width: 10px;
-}
-.item:nth-child(4){
-    height: 380px;
-    margin-top: 40px;
-}
-.item:nth-child(5){
-    height: 380px;
-    margin-top: 40px;
-}
-.item:nth-child(6){
-    height: 380px;
-    margin-top: 40px;
-}
-
-
-.item-name{
-    position: absolute;
-    bottom: 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    display: table-cell;
-    left: 50px;
-}
-
-.item-name-3{
-    left: 108px;
-}
-.item-name-4{
-    left: 80px;
-}
-.item-name-5{
-    left: 90px;
-}
-.item-name-6{
-    left: 33px;
-}
-.item-img-5{
-    width:90px;
-}
-
-.footer{
-    height: 60px;
-    position: relative;
-    z-index: 600;
-    background-color: #333333;
-}
-.footer-pos{
-    width: 1262px;
-    height: 60px;
-    position: absolute;
-}
-
-.footer-background{
-    background: url('/images/KAI-Logo.png') no-repeat;
-    height: 60px;
-    width: 180px;
-    background-size: 70%;
-    margin-left: 50px;
-}
-.footer-quote{
-    position: absolute;
-    color: #cccccc;
-    font-size: 20px;
-    right: 370px;
-    top: 16px;
-}
-}
-
-
-
-@media screen and (max-width: 768px){
-        .layer-positioner{
-            max-width: 700px;
+            padding: 250px 0 310px;
         }
-        .header-background{
-        background: url('/images/header-background.jpg');
-        background-size: cover;
-        background-position: center;
-        padding: 0px;
-        height: 500px;
-    }
-    .header-background h1{
-        color: white;
-        font-size: 48px;
-        margin: 0px 0px 0px 0;
-        text-align: right;
-        float: left;
-    }
     .shop{
-        background-color: black;
-        background-image: url('/images/shop-guitar.jpg');
-        background-attachment: fixed;
-        background-size: 690px 727px;
-        background-repeat: no-repeat;
-        padding: 230px 0 70px;
+        padding: 230px 20px 60px 0px;
     }
-    .shop-quote{
-        color: #ccc;
-        float: right;
-        font-family: 'Poppins', sans-serif;
-        font-size: 30px;
-        margin-bottom: 155px;
-    }
-    .shop-quote-c{
-        color: #ccc;
-        margin-right: 50px;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        text-align: right;
-    }
-    .navigate{
-        max-width: 1349px;
-        margin: auto;
-        background-color: #0d0d0d;
-    }
-    .navigate-backgr{
-        width: auto;
-    }
-    .sl{
-        width: 1067px;
-        margin: auto;
-    }
-    .content-3{
-        background-color: black;
-        padding: 0px 0 38px;
-    }
-
-    .content-3-img{
-        margin-left: 80px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        float: left;
-    }
-    #scene {
-        padding: 80px 0;
+    #scene{
+        padding: 120px 0 0px;
     }
     .content-3-quote{
-        float: right;
-        color: #cccccc;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 32px;
-        text-align: center;
-        margin: 90px 40px 80px;
+        margin: 160px 80px 60px 0px;
+    }
+}
+    
+    @media screen and (max-width: 1280px){
+        .header-background h1{
+            font-size: 48px;
+        }
+        .shop-quote{
+            font-size: 26px;
+        }
+        .sl div img{
+        width: 100%;
+       height: auto;;
+        margin: auto;
+        }
+        .sl{
+            width: 100%;
+        }
+        #scene li img{
+            width: 30%
+        }
+        #scene{
+            margin-left: -30px;
+        }
+        .content-3-quote{
+            margin: 100px 30px 40px 100px;
+            font-size: 26px;
+            
+        }
+        .content-3-quote-c{
+            font-size: 20px;
+        }
+        .content-3{
+            padding-bottom: 100px;
+        }
+        .guitar-types{
+            width: 942px;
+        }
+        .item{
+            width: 264px;
+        }
+        .guitar-types-pos{
+            width: 100%;
+        }
+        .item-name{
+            font-size: 18px;
+        }
+        .footer-background{
+        background: url('/images/KAI-Logo.png') no-repeat;
+        height: 50px;
+        width: 120px;
+        background-size: cover;
+        position: absolute;
+        left: 10px;
+        top: 4px;
+        }
+        .footer-quote{
+            color: #ccc;
+            font-size: 20px;
+            line-height: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+@media screen and (max-width: 960px){
+    .header-background{
+        padding: 120px 0 100px;
+    }
+    .header-background h1{
+        font-size: 36px;
+        margin-right: 10px;
+    }
+    .shop{
+        padding: 100px 0 40px;
+        background-attachment:scroll;
+        background-size: 300px 300px;
+    }
+    .shop-quote{
+        font-size: 20px;
+        margin: 0px 0 60px;
+    }
+    .content-3{
+        padding-bottom: 40px;
+    }
+    .content-3-quote{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 80px;
+        margin-bottom: 30px;
     }
     .content-3-quote-c{
-        float: right;
-        color: #cccccc;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 26px;
-        text-align: right;
-        margin: 0 40px 0;
+        font-size: 16px;
     }
-    .guitar-types-pos{
-        margin: auto;
-        width: 960px;
+    #scene{
+        padding-top: 30px;
+        margin-left: -70px;
     }
     .guitar-types{
-        background-color: white;
-        margin: auto;
-        padding: 30px 0 70px;
+        width: 100%;
+    }
+    .guitar-types-pos{
+        width: 560px;
     }
     .item{
-        width: 280px;
-        height: 350px;
-        display: block;
-        border: 1px dashed pink;
-        float: left;
+        width: 250px;
+        height: 320px;
         margin-right: 60px;
-        text-decoration: none;
-        margin-top: 40px;
     }
-
-    .item-img{
-        margin: 15px auto 10px;
-        width: 110px;
+    .item:nth-child(3){
+        margin-right: 60px;
     }
-    .item:nth-child(3n){
+    .item:nth-child(2){
         margin-right: 0;
     }
     .item:nth-child(4){
-        height: 380px;
-
-    }
-    .item:nth-child(5){
-        height: 380px;
+        margin-right: 0;
+        height: 320px
     }
     .item:nth-child(6){
-        height: 380px;
+        margin-right: 0;
+        height: 320px
     }
-    .item-name{
-        color: black;
-        font-size: 20px;
-        text-align: center;
+    .item:nth-child(5){
+        height: 320px
+    }
+    .item-img img{
+        width: 90px;
+        height: 250px;
+    }
+    .item-img{
+        width: 90px;
+        height: 250px;
+    }
+    .item-img-4 img{
+        width: 80px;
+    }
+    .item-img-4{
+        width: 80px;
+    }
+    .item-img-5 img{
+        width: 75px;
     }
     .item-img-5{
-        width:90px;
+        width: 75px;
     }
-
     .footer{
-        height: 60px;
-        background-color: #333;
+        height: 64px;
     }
-    .footer-pos{
-        width: 960px;
-        height: 60px;
-        margin: auto;
-    }
-
     .footer-background{
         background: url('/images/KAI-Logo.png') no-repeat;
-        height: 60px;
-        width: 180px;
-        background-size: 70%;
-        float: left;
+        height: 37px;
+        width: 90px;
+        background-size: cover;
+        position: absolute;
+        left: 0px;
+        top: 10px;
     }
     .footer-quote{
         color: #ccc;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 20px;
-        padding: 20px 20px;
+        padding: 12px;
         text-align: center;
-        vertical-align: middle;
+        width: 500px;
+        margin:auto;
     }
 }
-
-
+        @media screen and (max-width:640px){
+            .header-background{
+                padding: 70px 0 50px;
+            }
+            .header-background h1{
+                font-size: 22px;
+                margin: 0;
+            }
+            .shop-quote{
+                font-size: 14px;
+                font-weight: 600;
+                padding-left: 60px;
+                margin-bottom: 30px
+            }
+            .shop-quote-c{
+                font-size: 10px;
+                font-weight: 500;
+                margin-right: 10px;
+            }
+            .content-3-quote{
+                font-size: 14px;
+            }
+            .content-3-quote-c{
+                font-size: 10px;
+            }
+            .footer-pos{
+        height: auto;
+        }
+        .footer{
+            height: auto;
+        }
+        .footer-background{
+            display: none;
+        }
+        .footer-quote{
+            color: #ccc;
+            font-size: 13px;
+            line-height: 20px;
+            padding: 2px 0;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+            .guitar-types-pos{
+                width: 250px;
+            }
+        }
