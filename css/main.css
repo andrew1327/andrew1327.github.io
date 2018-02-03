@@ -360,7 +360,7 @@
 }
         @media screen and (max-width:640px){
             .header-background{
-                padding: 70px 0 50px;
+                padding: 90px 0 60px;
             }
             .header-background h1{
                 font-size: 22px;
@@ -371,13 +371,14 @@
             }
             .black-back{
                 background-color: rgba(0, 0, 0, 0.6);
-                padding: 100px 0 40px;
+                padding: 50px 0 40px;
             }
             .shop-quote{
-                font-size: 14px;
-                font-weight: 600;
-                padding-left: 60px;
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 70px;
                 margin-bottom: 30px;
+                text-align: center;
             }
             .shop-quote-c{
                 font-size: 10px;
@@ -385,13 +386,13 @@
                 margin-right: 10px;
             }
             .content-3-quote{
-                font-size: 14px;
+                font-size: 18px;
                 float: left;
                 width: 80%;
                 margin: 0 10% 20px;
             }
             .content-3-quote-c{
-                font-size: 10px;
+                font-size: 14px;
                 width: 80%;
                 margin: 0 10%;
                 padding-right: 2%;
@@ -417,18 +418,21 @@
             .guitar-types-pos{
                 width: 230px;
             }
+            .content-3{
+                padding-bottom: 80px;
+            }
             #scene{
                 margin: 0;
                 padding-top: 20px;
             }
             .layer{
                 float: none;
-                width: 100px;
+                width: 150px;
                 margin: 0 auto;
             }
             #scene li img{
-                width: 100px;
-                height: 100px;
+                width: 150px;
+                height: 150px;
                 position: static;
                 margin: 0px 0 20px;            
             }
@@ -437,6 +441,7 @@
                 border-radius: 10px;
                 width: 230px;
                 height: 315px;
+                margin-right: 0;
             }
             .item-img-6{
                 margin-top: 8px;
