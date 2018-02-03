@@ -366,11 +366,18 @@
                 font-size: 22px;
                 margin: 0;
             }
+            .shop{
+                padding: 0;
+            }
+            .black-back{
+                background-color: rgba(0, 0, 0, 0.6);
+                padding: 100px 0 40px;
+            }
             .shop-quote{
                 font-size: 14px;
                 font-weight: 600;
                 padding-left: 60px;
-                margin-bottom: 30px
+                margin-bottom: 30px;
             }
             .shop-quote-c{
                 font-size: 10px;
@@ -379,29 +386,59 @@
             }
             .content-3-quote{
                 font-size: 14px;
+                float: left;
+                width: 80%;
+                margin: 0 10% 20px;
             }
             .content-3-quote-c{
                 font-size: 10px;
+                width: 80%;
+                margin: 0 10%;
+                padding-right: 2%;
             }
             .footer-pos{
-        height: auto;
-        }
-        .footer{
-            height: auto;
-        }
-        .footer-background{
-            display: none;
-        }
-        .footer-quote{
-            color: #ccc;
-            font-size: 13px;
-            line-height: 20px;
-            padding: 2px 0;
-            text-align: center;
-            width: 80%;
-            margin: 0 auto;
-        }
+                height: auto;
+            }
+            .footer{
+                height: auto;
+            }
+            .footer-background{
+                display: none;
+            }
+            .footer-quote{
+                color: #ccc;
+                font-size: 13px;
+                line-height: 20px;
+                padding: 2px 0;
+                text-align: center;
+                width: 80%;
+                margin: 0 auto;
+            }
             .guitar-types-pos{
                 width: 250px;
             }
-        }
+            #scene{
+                margin: 0;
+                padding-top: 20px;
+            }
+            .layer{
+                float: none;
+                width: 100px;
+                margin: 0 auto;
+            }
+            #scene li img{
+                width: 100px;
+                height: 100px;
+                position: static;
+                margin: 0px 0 20px;            
+            }
+            .item{
+                border: 1px solid pink;
+                border-radius: 10px;
+                width: 230px;
+                height: 315px;
+            }
+            .item-img-6{
+                margin-top: 8px;
+            }
+    }
