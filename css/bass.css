@@ -24,8 +24,8 @@ body{
 }
 .header{
     width: 100%;
-    height: 50px;
-    background-color: rgb(255, 138, 38);
+    height: 51px;
+    background-color: rgb(121, 81, 198);
     border-bottom: 1px solid #cccccc;
     position: fixed;
     z-index: 1000;
@@ -69,23 +69,20 @@ body{
 }
 .header-menu-ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 22px;
     display: block;
     padding: 12px 25px 11px;
     font-family: 'Raleway', sans-serif;
 }
 .header-menu-ul li:hover{
-    background-color: #f8a319;
-}
-.header-menu-ul li a:hover{
-    color: #333;
+    background-color: rgb(99, 54, 186);
 }
 .header-menu-ul li a:active{
-    color: #cb3e00;
+    color: #b206ff;
 }
 .guitar-inf{
-    background-color: rgba(255, 209, 18, 0.28);
+    background-color: rgba(164, 18, 255, 0.28);
     padding-top: 50px;
 }
 .guitar-inf-txt{
@@ -101,7 +98,7 @@ body{
     font-size: 24px;
 }
 .guitar-inf-background{
-    background-image: url("/images/794_0254505506v4_axl.jpg");
+    background-image: url("/images/bass/bass-guitar-samples-1.jpg");
     width: 600px;
     height: 355px;
     background-size: cover;
@@ -149,7 +146,7 @@ body{
 }
 .guitar-artists{
     padding: 30px 0 50px;
-    background-color: #ff9300;
+    background-color: #70369b;
 }
 .guitar-artists-quote{
     max-width: 900px;
@@ -177,7 +174,7 @@ body{
     margin: auto;
 }
 .gallery-background{
-    background-color: #d67b12;
+    background-color: #905cc4;
 }
 .your-class{
     width: 710px;
@@ -328,7 +325,7 @@ body{
     }
     .header-menu-ul li a{
         font-size: 18px;
-        padding: 14px 4px 0;
+        padding: 14px 4px 14px;
     }
     .pre-facts{
         font-size: 20px;
