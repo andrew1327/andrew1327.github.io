@@ -62,7 +62,7 @@
     background-color: #0d0d0d;
 }
 .navigate-backgr{
-    width: auto;
+    background-color: #000;
 }
 .sl{
     width: 1067px;
@@ -360,7 +360,7 @@
 }
         @media screen and (max-width:640px){
             .header-background{
-                padding: 90px 0 60px;
+                padding: 80px 0 70px;
             }
             .header-background h1{
                 font-size: 22px;
@@ -374,8 +374,8 @@
                 padding: 50px 0 40px;
             }
             .shop-quote{
-                font-size: 18px;
-                font-weight: 500;
+                font-size: 16px;
+                font-weight: 600;
                 padding-left: 70px;
                 margin-bottom: 30px;
                 text-align: center;
